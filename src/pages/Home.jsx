@@ -5,6 +5,7 @@ import CourseList from "../components/CourseList"
 import SearchBar from "../components/SearchBar"
 import Footer from "../components/Footer"
 import { fetchCourses } from "../services/api"
+import Benefits from "../components/Benefits"
 
 
 
@@ -21,6 +22,7 @@ export default function Home() {
       <Hero />
       <CourseList courses={courses} />
       <SearchBar/>
+      <Benefits/>
       <Footer />  
     </>
   )
